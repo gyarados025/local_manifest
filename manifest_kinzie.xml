@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="git"
+          fetch="https://github.com/" />
+
+
+<!-- kinzie cm-14.1 -->
+<project path="device/motorola/kinzie" name="gyarados025/android_device_motorola_kinzie" revision="cm-14.1-new" remote="git"/>
+
+<!-- msm8994 stuff -->
+<project path="kernel/motorola/msm8994" name="gyarados025/android_kernel_motorola_msm8992" revision="master" remote="git"/>
+<project path="vendor/motorola/kinzie" name="gyarados025/android_vendor_motorola_kinzie" revision="master" remote="git"/>
+
+<!-- LineageOS stuff -->
+<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" remote="git"/>
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="git"/>
+</manifest>
