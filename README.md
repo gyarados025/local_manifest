@@ -20,7 +20,7 @@ Create a local_manifests dir and Copy the required manifests in that folder.
 
     mkdir .repo/local_manifests
     
-    wget -O .repo/local_manifests/cm-14.1_kinzie.xml 'https://raw.githubusercontent.com/gyarados025/local_manifest/master/cm13_kinzie.xml'
+    wget -O .repo/local_manifests/cm13_kinzie.xml 'https://raw.githubusercontent.com/gyarados025/local_manifest/master/cm13_kinzie.xml'
     
     repo sync -c -f --force-sync
  
